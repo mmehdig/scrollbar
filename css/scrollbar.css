@@ -1,0 +1,30 @@
+.scrollable-area {
+	overflow: hidden;
+	position: relative;
+	border: 1px solid #999999;
+}
+.scrollable-area .scrollable-body {
+	overflow: hidden;
+	height: 100%;
+}
+.scrollable-area .scroll-bar {
+	width: 10px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #F0F0F0;
+	display: none;
+}
+.scrollable-area .scroll-bar .scroll-handle {
+	background: #999999;
+	width: 10px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.scrollable-default-theme {
+
+}

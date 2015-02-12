@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Scrollbar jQuery Plugin</title>
+		<script src="js/jquery.js" type="text/javascript"></script>
+		<script src="js/scrollbar.js" type="text/javascript"></script>
+		<script src="js/jquery.scrollbar.js" type="text/javascript"></script>
+		<link href="css/scrollbar.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript">
+			$(document).ready(function(){
+
+				$('#test-area1').scrollBar();
+				
+				$('#test-area2').scrollBar({
+					height: 100,
+					width: 100,
+					theme: 'myClass'
+				});
+
+			});
+		</script>
+	</head>
+	<body>
+		<div id="test-area1">
+			<h3>Area 1</h3>
+			<p>This is a test ...</p>
+			<p>This is a test ...</p>
+			<p>This is a test ...</p>
+			<ol>
+				<li>text</li>
+				<li>text</li>
+				<li>text</li>
+				<li>text</li>
+			</ol>
+		</div>
+		<br />
+		<div id="test-area2">
+			<h3>Area 2</h3>
+			<p>This is a test ...</p>
+			<p>This is a test ...ssssssssssssssssssssss</p>
+			<p>This is a test ...</p>
+			<ol>
+				<li>text</li>
+				<li>text</li>
+				<li>text</li>
+				<li>text</li>
+			</ol>
+			<p>This is a test ...</p>
+			<p>This is a test ...</p>
+			<p>This is a test ...</p>
+			<p>end</p>
+		</div>	
+
+		
+	</body>
+</html>
